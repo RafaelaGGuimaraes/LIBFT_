@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/07/23 19:22:31 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/23 19:22:32 by rgomes-g         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 
@@ -12,9 +24,11 @@ int	ft_isascii(int c);
 int	ft_isprint(int c);
 int	ft_toupper(int c);
 int	ft_tolower(int c);
+int	ft_strncmp(const char *s1, const char *s2, size_t n);
+
 
 size_t	ft_strlen(const char *s);
-
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 
 /* Parte 2 - Funções adicionais */
 // char	*ft_substr(...);  ← você adicionará aqui depois
