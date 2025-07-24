@@ -3,16 +3,15 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+         #
+#    By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/23 19:23:07 by rgomes-g         ###   ########.fr        #
+#    Updated: 2025/07/24 19:43:52 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME= libft.a
 
-SRCS= \
+SRCS = \
 		ft_isalpha.c \
 		ft_isdigit.c \
 		ft_isalnum.c \
@@ -23,19 +22,21 @@ SRCS= \
 		ft_strlen.c \
 		ft_strncmp.c \
 		ft_strlcpy.c \
+		ft_strlcat.c \
 
+OBJS = $(SRCS:.c=.o)
 
-OBJS= $(SRCS:.c=.o)
-
-CC= cc
-CFLAGS= -Wall -Wextra -Werror
-AR= ar -rcs
-RM= rm -rf
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
+AR = ar -rcs
+RM = rm -rf
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
+
+bonus: all
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -48,4 +49,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus
