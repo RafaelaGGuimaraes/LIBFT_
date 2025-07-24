@@ -6,7 +6,7 @@
 #    By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/24 19:43:52 by rgomes-g         ###   ########.fr        #
+#    Updated: 2025/07/24 20:27:40 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,8 @@ SRCS = \
 		ft_strncmp.c \
 		ft_strlcpy.c \
 		ft_strlcat.c \
+		ft_strdup.c \
+		ft_atoi.c \
 
 OBJS = $(SRCS:.c=.o)
 
