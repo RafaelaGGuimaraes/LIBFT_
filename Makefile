@@ -6,7 +6,7 @@
 #    By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/26 16:58:43 by rgomes-g         ###   ########.fr        #
+#    Updated: 2025/07/26 18:41:58 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,6 +30,10 @@ SRCS = \
 		ft_memmove.c \
 		ft_memchr.c \
 		ft_memcmp.c \
+		ft_strchr.c \
+		ft_strrchr.c \
+		ft_strnstr.c \
+		ft_calloc.c \
 		
 OBJS = $(SRCS:.c=.o)
 
