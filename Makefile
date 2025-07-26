@@ -3,13 +3,12 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+         #
+#    By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/24 20:27:40 by rgomes-g         ###   ########.fr        #
+#    Updated: 2025/07/26 16:58:43 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
 
 SRCS = \
 		ft_isalpha.c \
@@ -25,20 +24,25 @@ SRCS = \
 		ft_strlcat.c \
 		ft_strdup.c \
 		ft_atoi.c \
-
+		ft_memset.c \
+		ft_bzero.c \
+		ft_memcpy.c \
+		ft_memmove.c \
+		ft_memchr.c \
+		ft_memcmp.c \
+		
 OBJS = $(SRCS:.c=.o)
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 AR = ar -rcs
 RM = rm -rf
+NAME = libft.a
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
-
-bonus: all
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
