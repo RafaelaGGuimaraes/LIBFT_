@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+         #
+#    By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/26 18:41:58 by rgomes-g         ###   ########.fr        #
+#    Updated: 2025/07/29 19:59:41 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,12 @@ SRCS = \
 		ft_strrchr.c \
 		ft_strnstr.c \
 		ft_calloc.c \
+		ft_putchar_fd.c \
+		ft_putstr_fd.c \
+		ft_putendl_fd.c \
+		ft_putnbr_fd.c \
+		ft_substr.c \
+		ft_strjoin.c \
 		
 OBJS = $(SRCS:.c=.o)
 
