@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/23 19:27:18 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/29 15:30:44 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:55:06 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:47:26 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strchr(char const *s, int c)
 {
 	int	i;
 
@@ -27,20 +27,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	const char *str = "42 São Paulo!";
-// 	char *result = ft_strchr(str, 'S');
-// 	char *result2 = ft_strchr(str, '\0');
-
-// 	printf("Resultado com 'S': %s\n", 
-// 		result ? result : "NULL");
-// 	printf("Resultado com '\\0': %s\n", 
-// 		result2 ? "Encontrado terminador" : "NULL");
-
-// 	return 0;
-// }

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/23 19:23:53 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/24 20:26:04 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:55:12 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:32:22 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *src)
+char	*ft_strdup(char const *src)
 {
 	char	*dest;
 	size_t	i;

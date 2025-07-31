@@ -6,7 +6,7 @@
 /*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 19:27:05 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/26 16:58:28 by rgomes-g         ###   ########.fr       */
+/*   Updated: 2025/07/31 18:48:41 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,28 +30,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	const char *a = "abcde";
-// 	const char *b = "abcde";
-// 	const char *c = "abcdf";
-// 	const char *d = "abCde";
-
-// 	printf("Teste 1 - Iguais:\n");
-// 	printf("ft_memcmp: %d\n", ft_memcmp(a, b, 5));
-// 	printf("memcmp:    %d\n\n", memcmp(a, b, 5));
-
-// 	printf("Teste 2 - Letra diferente no final:\n");
-// 	printf("ft_memcmp: %d\n", ft_memcmp(a, c, 5));
-// 	printf("memcmp:    %d\n\n", memcmp(a, c, 5));
-
-// 	printf("Teste 3 - Letra minúscula vs maiúscula:\n");
-// 	printf("ft_memcmp: %d\n", ft_memcmp(a, d, 5));
-// 	printf("memcmp:    %d\n", memcmp(a, d, 5));
-
-// 	return 0;
-// }

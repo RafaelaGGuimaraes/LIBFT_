@@ -3,15 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+         #
+#    By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/30 21:18:11 by rgomes-g         ###   ########.fr        #
+#    Created: 2025/07/31 17:56:26 by rgomes-g          #+#    #+#              #
+#    Updated: 2025/07/31 18:08:50 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = \
-		ft_isalpha.c \
+SRCS = 	ft_isalpha.c \
 		ft_isdigit.c \
 		ft_isalnum.c \
 		ft_isascii.c \

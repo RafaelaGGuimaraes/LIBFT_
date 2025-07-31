@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/30 18:11:23 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/30 18:34:57 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:54:06 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:48:35 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,21 +49,3 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char *res;
-
-// 	res = ft_itoa(42);
-// 	if (res)
-// 	{
-// 		printf("ft_itoa(42) = %s\n", res);
-// 		free(res);
-// 	}
-// 	else
-// 		printf("ft_itoa(42) = NULL (erro de alocação)\n");
-
-// 	return (0);
-// }

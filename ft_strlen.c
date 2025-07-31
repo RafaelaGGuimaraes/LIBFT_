@@ -6,13 +6,13 @@
 /*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 19:21:55 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/23 19:21:56 by rgomes-g         ###   ########.fr       */
+/*   Updated: 2025/07/31 18:30:13 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+size_t	ft_strlen(char const *s)
 {
 	size_t	len;
 

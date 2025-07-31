@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/29 19:41:31 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/29 20:14:45 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:55:25 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:47:39 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(const char *s1, const char *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*joined;
 	size_t	i;
@@ -38,24 +38,3 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	joined[i + j] = '\0';
 	return (joined);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	*s1 = NULL;
-// 	char	*s2 = "São Paulo";
-// 	char	*resultado;
-
-// 	resultado = ft_strjoin(s1, s2);
-// 	if (resultado)
-// 	{
-// 		printf("Resultado: %s\n", resultado);
-// 		free(resultado);
-// 	}
-// 	else
-// 	{
-// 		printf("Erro ao alocar memória.\n");
-// 	}
-// 	return (0);
-// }

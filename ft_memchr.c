@@ -6,7 +6,7 @@
 /*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 19:26:44 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/26 16:48:42 by rgomes-g         ###   ########.fr       */
+/*   Updated: 2025/07/31 18:46:51 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,20 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-// #include <string.h> // para comparar com a original
-
-// void	*ft_memchr(const void *s, int c, size_t n);
-
-// int	main(void)
-// {
-// 	const char str[] = "42 São Paulo!";
-// 	char *res1 = ft_memchr(str, 'a', 12);
-// 	char *res2 = memchr(str, 'a', 12);
-
-// 	printf("ft_memchr: %s\n", res1 ? res1 : "NULL");
-// 	printf("memchr:    %s\n", res2 ? res2 : "NULL");
-
-// 	return 0;
-// }

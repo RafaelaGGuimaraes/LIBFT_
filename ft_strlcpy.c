@@ -6,13 +6,13 @@
 /*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 19:21:51 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/23 19:21:52 by rgomes-g         ###   ########.fr       */
+/*   Updated: 2025/07/31 19:27:29 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
+size_t	ft_strlcpy(char *dst, char const *src, size_t dstsize)
 {
 	size_t	srcsize;
 	size_t	i;

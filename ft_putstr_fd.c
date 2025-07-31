@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/27 14:41:51 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/27 14:50:24 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:54:52 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:48:23 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,3 @@ void	ft_putstr_fd(char *str, int fd)
 		i++;
 	}
 }
-
-// int	main(void)
-// {
-// 	ft_putstr_fd("Teste no terminal\n", 1);
-// 	return (0);
-// }

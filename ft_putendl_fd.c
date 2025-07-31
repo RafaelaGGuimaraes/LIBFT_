@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/27 14:52:03 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/27 14:53:33 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:53:10 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:47:13 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,3 @@ void	ft_putendl_fd(char *str, int fd)
 	}
 	write(fd, "\n", 1);
 }
-
-// int	main(void)
-// {
-// 	ft_putstr_fd("Teste no terminal", 1);
-// 	return (0);
-// }

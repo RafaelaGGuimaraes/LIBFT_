@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rgomes-g <rgomes-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/23 19:28:28 by rgomes-g          #+#    #+#             */
-/*   Updated: 2025/07/24 20:26:43 by rgomes-g         ###   ########.fr       */
+/*   Created: 2025/07/31 17:53:27 by rgomes-g          #+#    #+#             */
+/*   Updated: 2025/07/31 18:29:53 by rgomes-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-#include "libft.h"
-
-int	ft_atoi(const char *str)
+int	ft_atoi(char const *str)
 {
 	int	i;
 	int	sinal;
