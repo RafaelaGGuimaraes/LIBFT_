@@ -6,7 +6,7 @@
 #    By: rgomes-g <rgomes-g@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/23 19:23:06 by rgomes-g          #+#    #+#              #
-#    Updated: 2025/07/29 19:59:41 by rgomes-g         ###   ########.fr        #
+#    Updated: 2025/07/30 21:18:11 by rgomes-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,6 +40,11 @@ SRCS = \
 		ft_putnbr_fd.c \
 		ft_substr.c \
 		ft_strjoin.c \
+		ft_strtrim.c \
+		ft_itoa.c \
+		ft_strmapi.c \
+		ft_striteri.c \
+		ft_split.c \
 		
 OBJS = $(SRCS:.c=.o)
 
